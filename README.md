@@ -1,2 +1,6 @@
-# intelligent-agents-eportfolio-2025
-e-Portfolio for the Intelligent Agents module (MSc Artificial Intelligence, University of Essex Online, Oct 2025). Contains HTML pages for discussions, activities and reflections.
+# Intelligent Agents e-Portfolio (2025)
+
+This repository contains HTML pages for my Intelligent Agents module e-Portfolio:
+- Collaborative discussions (Agent-Based Systems, ACLs, Deep Learning)
+- Unit activities (Agent Dialogues, Parse Trees, Deep Learning in Action)
+- Reflections and references in Harvard style.
