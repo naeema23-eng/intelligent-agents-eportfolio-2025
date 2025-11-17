@@ -1,47 +1,114 @@
+/* Global layout */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #FDFBF8;     /* very light beige */
-  color: #333333;                /* dark grey text for good contrast */
-  line-height: 1.6;
-  margin: 0 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  background-color: #F7F2EC;      /* warm beige */
+  color: #333333;
+  margin: 0;
   padding: 0;
 }
 
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+}
+
+/* Headings */
 h1 {
-  color: #5D4E3A;               /* coffee-beige heading */
-  font-size: 2em;
-  margin-bottom: 0.2em;
+  color: #5C4838;                 /* deep warm brown */
+  font-size: 2.2rem;
+  margin-bottom: 0.2rem;
 }
 
 h2 {
-  color: #6E5E4C;
-  margin-top: 1.4em;
+  color: #6B5441;
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid #E3D8CD; /* subtle beige line */
-  margin: 1.5em 0;
+h3 {
+  color: #755C45;
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
 }
 
-a {
-  color: #8B6F55;                /* muted brown link */
+h4 {
+  color: #7C6248;
+  margin-top: 1.1rem;
+}
+
+/* Navigation */
+nav {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  border-bottom: 1px solid #E1D4C4;
+  padding-bottom: 0.4rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 0.95rem;
+}
+
+nav a {
+  color: #866D54;
   text-decoration: none;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Text & lists */
+p {
+  line-height: 1.6;
+  margin-top: 0.4rem;
+  margin-bottom: 0.7rem;
+}
+
+ul {
+  padding-left: 1.3rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #E1D4C4;
+  margin: 1.5rem 0;
+}
+
+/* Links */
+a {
+  color: #866D54;
+}
+
 a:hover {
   text-decoration: underline;
 }
 
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-
+/* Footer */
 footer {
-  margin-top: 2em;
-  font-size: 0.9em;
-  color: #777777;
+  margin-top: 2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #E1D4C4;
+  font-size: 0.9rem;
+  color: #777;
+  text-align: left;
+}
+
+/* Small helper styles */
+.emphasis {
+  font-style: italic;
+  color: #555;
 }
