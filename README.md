@@ -1,13 +1,15 @@
-Intelligent Agents – e-Portfolio
+# Intelligent Agents – e-Portfolio
 
-Author: Naeema Abdalla Ahmed Alnaqbi  
-Programme: MSc Artificial Intelligence  
-Module: Intelligent Agents  
-Assessment: Individual e-Portfolio (40%)
+**Author:** Naeema Abdalla Ahmed Alnaqbi  
+**Programme:** MSc Artificial Intelligence  
+**Module:** Intelligent Agents  
+**Assessment:** Individual e-Portfolio (40%)
 
-1. Overview
+---
 
-This e-Portfolio presents a complete, structured, and evidence-based record of my learning and assessment work for the Intelligent Agents module.
+## 1. Overview
+
+This e-Portfolio presents a complete, structured, and evidence-based record of my learning and assessment work for the **Intelligent Agents** module.
 
 The portfolio demonstrates my engagement with:
 
@@ -20,11 +22,13 @@ The portfolio demonstrates my engagement with:
 
 All required unit activities (Units 1–12) are represented through written artefacts, collaborative discussions, applied activities, and reflective analysis. Content is organised across interlinked HTML pages to support clarity, navigation, and academic assessment.
 
-2. How to View the Portfolio
+---
+
+## 2. How to View the Portfolio
 
 This portfolio is delivered as a set of static HTML pages.
 
-To view locally:
+### To view locally:
 
 1. Extract the submitted folder (if zipped).  
 2. Open `index.html` in a modern web browser.  
@@ -35,67 +39,77 @@ To view locally:
    - Reflections  
    - About  
 
-3. Canonical (Primary) Assessment Pages
+---
 
-The following pages constitute the primary assessment evidence and are sufficient to evaluate all module learning outcomes:
+## 3. Canonical (Primary) Assessment Pages
 
-File | Purpose
---- | ---
-index.html | Entry point, orientation, and module overview
-discussion.html | Collaborative Discussions 1–3 (initial posts, peer responses, and summary posts)
-activities.html | Unit-based activities, applied tasks, and practical artefacts (Units 1–12)
-statistics.html | Evaluation, comparison, and analysis of intelligent agent concepts
-reflections.html | Final reflective account structured using Rolfe et al.’s model
-about.html | Student background and submission context
+The following pages constitute the **primary assessment evidence** and are sufficient to evaluate all module learning outcomes:
 
-➡️ These pages are directly accessible via the main navigation and represent the core submission.
+| File | Purpose |
+|-----|--------|
+| `index.html` | Entry point, orientation, and module overview |
+| `discussion.html` | Collaborative Discussions 1–3 (initial posts, peer responses, summaries) |
+| `activities.html` | Unit-based activities, applied tasks, and practical artefacts (Units 1–12) |
+| `statistics.html` | Evaluation and comparative analysis of intelligent agent concepts |
+| `reflections.html` | Final reflective account structured using Rolfe et al.’s model |
+| `about.html` | Student background and submission context |
 
-4. Evidence Included (Mapped to Module Requirements)
+ These pages are directly accessible via the main navigation and represent the **core submission**.
 
-Collaborative Discussions
+---
 
-- Collaborative Discussion 1 (Units 1–3):  
-  Agent-Based Systems — initial post, peer responses, and summary post.
+## 4. Evidence Included (Mapped to Module Requirements)
 
-- Collaborative Discussion 2 (Units 5–7):  
-  Agent Communication Languages — initial post, peer responses, and summary post.
+### 4.1 Collaborative Discussions
 
-- Collaborative Discussion 3 (Units 9–11):  
-  Ethical implications of deep learning and intelligent agents — initial post, peer responses, and summary post.
+- **Collaborative Discussion 1 (Units 1–3)**  
+  Agent-Based Systems: initial post, peer responses, and summary post.
 
-Activities and Applied Work
+- **Collaborative Discussion 2 (Units 5–7)**  
+  Agent Communication Languages: initial post, peer responses, and summary post.
+
+- **Collaborative Discussion 3 (Units 9–11)**  
+  Ethical implications of deep learning and intelligent agents: initial post, peer responses, and summary post.
+
+### 4.2 Activities and Applied Work
 
 - Agent architectures and reasoning models  
-- Agent communication and coordination concepts  
+- Agent communication and coordination mechanisms  
 - NLP and adaptive algorithms within intelligent agent systems  
 - Ethical, legal, and professional considerations  
 - Applied tasks and artefact documentation  
 
-Reflection
+### 4.3 Reflection
 
-- Continuous reflective writing across the module  
+- Ongoing reflective writing across the module  
 - Final reflective account structured using:
-  - What?  
-  - So What?  
-  - Now What?  
+  - **What?**  
+  - **So What?**  
+  - **Now What?**  
 
-5. Notes on Structure and Navigation
+---
+
+## 5. Notes on Structure and Navigation
 
 - Core assessment content is presented on canonical pages accessible via the main navigation.
 - Content is organised to avoid duplication while maintaining clarity.
 - All required artefacts and reflections are clearly labelled and contextualised.
 - The portfolio structure mirrors the progression of the module units.
 
-6. Academic Integrity
+---
+
+## 6. Academic Integrity
 
 All work presented in this e-Portfolio is my own.
 
-Academic sources and external materials are cited using Harvard referencing.  
+Academic sources and external materials are cited using **Harvard referencing**.  
 No fabricated content is included. Reflections are based on genuine learning experiences and completed module activities.
 
-AI tools were used only for grammar, language checking, and formatting support.
+AI tools were used **only** for grammar, language checking, and formatting support.
 
-7. Verification
+---
+
+## 7. Verification
 
 Supporting evidence is also available via:
 
@@ -103,4 +117,6 @@ Supporting evidence is also available via:
 - Module discussion forums  
 - Tutor feedback records  
 
-End of README
+---
+
+**End of README**
