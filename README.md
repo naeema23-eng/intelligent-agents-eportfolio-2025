@@ -1,98 +1,106 @@
-# Intelligent Agents – MSc Artificial Intelligence e-Portfolio
+Intelligent Agents – e-Portfolio
 
-This repository contains my complete **e-Portfolio for the Intelligent Agents module**, part of the
-**MSc Artificial Intelligence** programme at the **University of Essex Online**.
+Author: Naeema Abdalla Ahmed Alnaqbi  
+Programme: MSc Artificial Intelligence  
+Module: Intelligent Agents  
+Assessment: Individual e-Portfolio (40%)
 
-The e-Portfolio presents structured evidence of learning, critical analysis, professional reflection,
-and applied understanding of intelligent and multi-agent systems. It is published using GitHub Pages
-as required for the module assessment.
+1. Overview
 
- **Live site:**  
-https://naeema23-eng.github.io/intelligent-agents-eportfolio-2025/
+This e-Portfolio presents a complete, structured, and evidence-based record of my learning and assessment work for the Intelligent Agents module.
 
----
+The portfolio demonstrates my engagement with:
 
-##  Module Information
+- Intelligent and multi-agent system foundations  
+- Agent architectures (reactive, deliberative, hybrid, BDI)  
+- Agent coordination and communication  
+- Agent Communication Languages (KQML, FIPA-ACL)  
+- Ethical, legal, and professional considerations in autonomous systems  
+- Evaluation and reflection on intelligent agent technologies  
 
-- **Module:** Intelligent Agents  
-- **Programme:** MSc Artificial Intelligence  
-- **Institution:** University of Essex Online  
+All required unit activities (Units 1–12) are represented through written artefacts, collaborative discussions, applied activities, and reflective analysis. Content is organised across interlinked HTML pages to support clarity, navigation, and academic assessment.
 
-The Intelligent Agents module focuses on:
-- Intelligent and multi-agent system foundations
-- Agent architectures (reactive, deliberative, hybrid, BDI)
-- Coordination and communication in agent systems
-- Agent Communication Languages (KQML, FIPA-ACL)
-- Ethical, legal, and professional issues in autonomous systems
-- Evaluation of agent performance and reliability
+2. How to View the Portfolio
 
----
+This portfolio is delivered as a set of static HTML pages.
 
-##  Purpose of the e-Portfolio
+To view locally:
 
-This e-Portfolio was developed to:
-- Demonstrate achievement of the module learning outcomes
-- Provide evidence of analytical and critical thinking
-- Reflect on professional and ethical considerations in agent-based systems
-- Document collaborative learning and individual contributions
-- Present structured reflective writing using an established reflective framework
+1. Extract the submitted folder (if zipped).  
+2. Open `index.html` in a modern web browser.  
+3. Use the navigation menu to move between sections:
+   - Discussions  
+   - Activities  
+   - Statistics  
+   - Reflections  
+   - About  
 
----
+3. Canonical (Primary) Assessment Pages
 
-##  Repository Structure
+The following pages constitute the primary assessment evidence and are sufficient to evaluate all module learning outcomes:
 
-/
-├── index.html # Home page
-├── discussion.html # All collaborative discussions (Discussions 1–3)
-├── activities.html # Learning activities and applied work
-├── statistics.html # Quantitative reasoning and evaluation
-├── reflections.html # Final reflective account (Rolfe et al. model)
-├── about.html # About the student and portfolio
-├── style.css # Shared site styling
-└── README.md # Repository overview
+File | Purpose
+--- | ---
+index.html | Entry point, orientation, and module overview
+discussion.html | Collaborative Discussions 1–3 (initial posts, peer responses, and summary posts)
+activities.html | Unit-based activities, applied tasks, and practical artefacts (Units 1–12)
+statistics.html | Evaluation, comparison, and analysis of intelligent agent concepts
+reflections.html | Final reflective account structured using Rolfe et al.’s model
+about.html | Student background and submission context
 
+➡️ These pages are directly accessible via the main navigation and represent the core submission.
 
----
+4. Evidence Included (Mapped to Module Requirements)
 
-##  Assessment Alignment
+Collaborative Discussions
 
-This e-Portfolio addresses the Intelligent Agents module learning outcomes by including:
+- Collaborative Discussion 1 (Units 1–3):  
+  Agent-Based Systems — initial post, peer responses, and summary post.
 
-- Critical discussion of intelligent agent theories and architectures
-- Application of agent concepts to real-world and organisational contexts
-- Evaluation of coordination, communication, and emergent behaviour
-- Consideration of ethical, legal, and governance challenges
-- Quantitative reasoning related to agent performance and reliability
-- Reflective evaluation of learning, skills, and professional development
+- Collaborative Discussion 2 (Units 5–7):  
+  Agent Communication Languages — initial post, peer responses, and summary post.
 
-The final reflective account follows the **Rolfe et al. (2001) What? – So What? – Now What?** model.
+- Collaborative Discussion 3 (Units 9–11):  
+  Ethical implications of deep learning and intelligent agents — initial post, peer responses, and summary post.
 
----
+Activities and Applied Work
 
-##  Collaboration and Professional Skills
+- Agent architectures and reasoning models  
+- Agent communication and coordination concepts  
+- NLP and adaptive algorithms within intelligent agent systems  
+- Ethical, legal, and professional considerations  
+- Applied tasks and artefact documentation  
 
-The e-Portfolio provides evidence of:
-- Engagement in collaborative discussions
-- Constructive peer feedback and academic dialogue
-- Professional communication and critical response
-- Reflection on teamwork and shared learning processes
+Reflection
 
----
+- Continuous reflective writing across the module  
+- Final reflective account structured using:
+  - What?  
+  - So What?  
+  - Now What?  
 
-##  AI Use Declaration
+5. Notes on Structure and Navigation
 
-Artificial intelligence tools were used **only** to support:
-- Grammar and language checking
-- Formatting and structural verification
+- Core assessment content is presented on canonical pages accessible via the main navigation.
+- Content is organised to avoid duplication while maintaining clarity.
+- All required artefacts and reflections are clearly labelled and contextualised.
+- The portfolio structure mirrors the progression of the module units.
 
-All academic content, analysis, interpretation, and reflection presented in this e-Portfolio
-are my own work. All sources are appropriately cited in accordance with University of Essex
-academic integrity and referencing guidelines.
+6. Academic Integrity
 
----
+All work presented in this e-Portfolio is my own.
 
-##  Author
+Academic sources and external materials are cited using Harvard referencing.  
+No fabricated content is included. Reflections are based on genuine learning experiences and completed module activities.
 
-**Naeema Alnaqbi**  
-MSc Artificial Intelligence  
-University of Essex Online
+AI tools were used only for grammar, language checking, and formatting support.
+
+7. Verification
+
+Supporting evidence is also available via:
+
+- University of Essex Online VLE submissions  
+- Module discussion forums  
+- Tutor feedback records  
+
+End of README
