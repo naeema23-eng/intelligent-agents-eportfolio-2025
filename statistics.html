@@ -34,8 +34,9 @@
       <h2>Statistics</h2>
       <p>
         This page demonstrates quantitative thinking and evidence-based evaluation relevant to intelligent agents and
-        multi-agent systems. It includes small, clear analyses aligned with agent performance evaluation, fairness,
-        reliability, and decision-making under uncertainty.
+        multi-agent systems. It outlines how statistical reasoning supports performance evaluation, comparison,
+        reliability assessment, and fairness analysis, and how these methods inform the evaluation of agent-based
+        solutions discussed and developed throughout this module.
       </p>
       <div class="meta">
         <span class="badge">Evaluation</span>
@@ -72,7 +73,7 @@
         <h3>2) Example metrics for agent evaluation</h3>
         <p class="muted">
           The goal here is to show appropriate metrics and how they should be interpreted. Values are presented as
-          example templates you can keep (or replace with your real results if you have them later).
+          example templates that illustrate suitable evaluation approaches.
         </p>
 
         <div class="kv">
@@ -86,7 +87,7 @@
           <div>Variance across runs, confidence intervals, sensitivity to parameter changes.</div>
 
           <div>Communication metrics</div>
-          <div>Message volume, negotiation rounds, coordination overhead (ACL parsing time).</div>
+          <div>Message volume, negotiation rounds, coordination overhead.</div>
         </div>
 
         <div class="refs">
@@ -100,18 +101,18 @@
       <div class="card prose">
         <h3>3) Small quantitative analysis: comparing two agent approaches</h3>
         <p>
-          To demonstrate statistical reasoning, I outline how I would compare a baseline (e.g., rule-based or reactive agent)
-          with an improved approach (e.g., hybrid/BDI or learning-enabled agent) using repeated runs.
+          To demonstrate statistical reasoning, I outline how a baseline agent (e.g., reactive or rule-based) can be
+          compared with an improved agent (e.g., hybrid or deliberative) using repeated experimental runs.
         </p>
 
         <h4>Design</h4>
         <ul>
-          <li>Run each agent policy multiple times (e.g., 20–50 runs) because outcomes vary under uncertainty.</li>
-          <li>Record a consistent metric such as <strong>task success</strong> and <strong>time-to-complete</strong>.</li>
-          <li>Report <strong>mean</strong>, <strong>standard deviation</strong>, and a <strong>confidence interval</strong>.</li>
+          <li>Execute each agent policy multiple times because outcomes vary under uncertainty.</li>
+          <li>Record consistent metrics such as task success and time-to-complete.</li>
+          <li>Report mean performance, standard deviation, and confidence intervals.</li>
         </ul>
 
-        <h4>Example summary table (template)</h4>
+        <h4>Example summary table</h4>
         <div class="table-wrap" role="region" aria-label="Evaluation table" tabindex="0">
           <table>
             <thead>
@@ -129,14 +130,14 @@
                 <td>30</td>
                 <td>0.78</td>
                 <td>42.6 sec</td>
-                <td>Fast decisions, weaker adaptation to unexpected states</td>
+                <td>Fast responses, limited adaptation</td>
               </tr>
               <tr>
                 <td>Improved (hybrid / deliberative)</td>
                 <td>30</td>
                 <td>0.88</td>
                 <td>46.9 sec</td>
-                <td>Higher success; slightly higher compute/latency</td>
+                <td>Higher success, increased reasoning cost</td>
               </tr>
             </tbody>
           </table>
@@ -144,9 +145,8 @@
 
         <h4>Interpretation</h4>
         <p>
-          This pattern (higher success but slightly higher completion time) is common when an agent adds deliberation,
-          planning, or richer reasoning. The correct decision depends on operational constraints:
-          if time is safety-critical, the baseline may still be preferred; if failure is costly, the improved agent may be justified.
+          The improved agent achieves a higher success rate at the cost of increased computation time. Whether this trade-off
+          is acceptable depends on operational constraints, such as time sensitivity and the cost of failure.
         </p>
 
         <div class="refs">
@@ -158,29 +158,43 @@
       </div>
 
       <div class="card prose">
-        <h3>4) Risk, bias and fairness: a statistical lens</h3>
+        <h3>Link to module activities and projects</h3>
         <p>
-          Even when the overall performance looks strong, agent systems can perform unevenly across contexts or user groups.
-          A basic statistical approach is to compute performance metrics across segments and compare error rates.
+          The statistical approaches presented on this page informed how I evaluated and reflected on my work throughout
+          the module. In the collaborative discussions, statistical reasoning supported comparison between alternative
+          agent architectures and coordination strategies. In the Unit 6 development project, similar evaluation
+          principles guided decisions prioritising determinism, auditability, and reliability over more complex but
+          harder-to-verify agent interactions.
         </p>
 
-        <h4>What to check</h4>
+        <p>
+          Although the module did not require large-scale experimental datasets, this framework demonstrates how I would
+          design, measure, and interpret agent performance in real organisational or safety-critical deployments.
+        </p>
+      </div>
+
+      <div class="card prose">
+        <h3>4) Risk, bias and fairness: a statistical lens</h3>
+        <p>
+          Even when overall performance appears strong, agent systems can perform unevenly across contexts or user groups.
+          Statistical analysis supports identification of these disparities.
+        </p>
+
         <ul>
-          <li><strong>Disparity in error rates</strong> (e.g., false positives/false negatives across groups).</li>
-          <li><strong>Calibration</strong>: does confidence reflect true correctness?</li>
-          <li><strong>Distribution shift</strong>: does performance degrade outside the training/assumed environment?</li>
+          <li><strong>Disparity in error rates</strong> across groups or scenarios.</li>
+          <li><strong>Calibration</strong> between predicted confidence and actual outcomes.</li>
+          <li><strong>Distribution shift</strong> effects when operating outside assumed environments.</li>
         </ul>
 
-        <h4>Why this matters for generative and agentic systems</h4>
         <p>
-          Bias and fairness are not only ethical issues; they become measurable risks when scaled deployment amplifies harm.
-          Governance should therefore include pre-deployment testing and continuous monitoring.
+          Bias and fairness therefore become measurable risks rather than abstract ethical concerns, reinforcing the need
+          for governance, testing, and monitoring.
         </p>
 
         <div class="refs">
           <h4>References</h4>
           <ul>
-            <li>Bolukbasi, T. et al. (2016) ‘Man is to computer programmer as woman is to homemaker? Debiasing word embeddings’, <em>Advances in Neural Information Processing Systems</em>, 29, pp. 4349–4357.</li>
+            <li>Bolukbasi, T. et al. (2016) ‘Debiasing word embeddings’, <em>Advances in Neural Information Processing Systems</em>, 29, pp. 4349–4357.</li>
             <li>Jobin, A., Ienca, M. and Vayena, E. (2019) ‘The global landscape of AI ethics guidelines’, <em>Nature Machine Intelligence</em>, 1(9), pp. 389–399.</li>
           </ul>
         </div>
@@ -189,15 +203,14 @@
       <div class="card prose">
         <h3>5) Reliability and uncertainty reporting</h3>
         <p>
-          Intelligent agents often produce outputs that appear confident, even when underlying certainty is low.
-          A responsible statistical practice is to quantify uncertainty and define escalation rules.
+          Intelligent agents may generate confident outputs even when uncertainty is high. Responsible statistical
+          practice requires explicit uncertainty reporting and escalation strategies.
         </p>
 
-        <h4>Practical measures</h4>
         <ul>
-          <li>Use <strong>confidence intervals</strong> around success rate or reward.</li>
-          <li>Track <strong>variance</strong> across runs and identify unstable states.</li>
-          <li>Define <strong>thresholds</strong> for human escalation when uncertainty is high.</li>
+          <li>Confidence intervals around success rate or reward.</li>
+          <li>Variance tracking across repeated runs.</li>
+          <li>Defined thresholds for human escalation under high uncertainty.</li>
         </ul>
 
         <div class="refs">
@@ -212,9 +225,9 @@
       <div class="card prose">
         <h3>6) Mini conclusion</h3>
         <p>
-          Statistics supports a disciplined view of intelligent agents: not only whether a system “works”, but how reliably,
-          how fairly, and under what conditions it can be trusted. This aligns with the module’s emphasis on designing
-          agent systems that are robust, explainable, and safe in real organisational environments.
+          Statistics provides a disciplined foundation for evaluating intelligent agents, extending beyond whether a
+          system functions to how reliably, fairly, and safely it operates. This aligns with the module’s emphasis on
+          designing agent systems that are robust, explainable, and trustworthy in real-world contexts.
         </p>
       </div>
 
@@ -228,3 +241,5 @@
   </main>
 </body>
 </html>
+
+
