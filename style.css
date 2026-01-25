@@ -222,3 +222,67 @@ blockquote{
   border-radius:8px;
   padding:2px 8px;
 }
+
+/* ====== Accessibility: skip link ====== */
+.skip-link{
+  position:absolute;
+  left:-999px;
+  top:12px;
+  background:var(--panel);
+  color:var(--accent-2);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:8px 12px;
+  z-index:1000;
+  box-shadow:var(--shadow);
+}
+.skip-link:focus{
+  left:12px;
+}
+
+/* ====== Helper text styles ====== */
+.muted{ color:var(--muted); font-size:13px; }
+.note{
+  margin:10px 0 0;
+  padding:12px 12px;
+  background:#fbfbff;
+  border:1px solid #e6efff;
+  border-radius:14px;
+  color:var(--muted);
+  font-size:13px;
+}
+
+/* ====== Link list used in Home page card ====== */
+.link-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.link-list li{
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:14px;
+  background:#ffffff;
+}
+.link-list a{
+  color:var(--accent-2);
+  text-decoration:none;
+}
+.link-list a:hover{
+  text-decoration:underline;
+}
+.link-list strong{
+  font-weight:800;
+}
+
+/* ====== Meta badges row (home hero) ====== */
+.hero .meta{
+  margin-top:12px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
