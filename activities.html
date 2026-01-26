@@ -241,6 +241,83 @@
         </details>
       </div>
 <div class="card prose">
+  <h3>Activity 4: Creating Agent Dialogues (KQML + KIF)</h3>
+  <p class="muted">
+    Focus: constructing a structured agent dialogue using KQML performatives and KIF-style content to support
+    autonomous communication between agents in a distributed system.
+  </p>
+
+  <details open>
+    <summary>
+      <span>What I did</span>
+      <span class="summary-right">Evidence + learning</span>
+    </summary>
+
+    <div class="detail-body">
+      <ul>
+        <li>Designed a KQML-based dialogue between two agents: Alice (procurement agent) and Bob (warehouse stock agent).</li>
+        <li>Used KQML performatives (<code>ask-one</code>, <code>tell</code>) to express communicative intent.</li>
+        <li>Represented message content using KIF-style logical expressions and variables.</li>
+        <li>Applied a shared ontology to reduce semantic ambiguity between agents.</li>
+      </ul>
+
+      <h4>Agent Dialogue</h4>
+
+      <pre><code>(ask-one
+  :sender Alice
+  :receiver Bob
+  :language KIF
+  :ontology Warehouse-Stock
+  :content (available-stock (item "Television") (size-inches 50) ?qty))</code></pre>
+
+      <pre><code>(tell
+  :sender Bob
+  :receiver Alice
+  :language KIF
+  :ontology Warehouse-Stock
+  :content (= ?qty 18))</code></pre>
+
+      <pre><code>(ask-one
+  :sender Alice
+  :receiver Bob
+  :language KIF
+  :ontology Warehouse-Stock
+  :content (hdmi-slots (item "Television") (size-inches 50) ?ports))</code></pre>
+
+      <pre><code>(tell
+  :sender Bob
+  :receiver Alice
+  :language KIF
+  :ontology Warehouse-Stock
+  :content (= ?ports 3))</code></pre>
+
+      <div class="kv">
+        <div>Evidence</div>
+        <div>
+          Complete KQML/KIF dialogue demonstrating agent communication, intent separation, and ontology-based reasoning.
+        </div>
+
+        <div>Outcome</div>
+        <div>
+          Practical understanding of how agent communication languages enable autonomous, knowledge-level interaction
+          beyond simple method invocation.
+        </div>
+      </div>
+
+      <div class="refs">
+        <h4>References</h4>
+        <ul>
+          <li>Finin, T. et al. (1994) ‘KQML as an agent communication language’, in <em>CIKM</em>. New York: ACM.</li>
+          <li>Gruber, T. (1993) ‘A translation approach to portable ontology specifications’, <em>Knowledge Acquisition</em>, 5(2), pp. 199–220.</li>
+          <li>Weiss, G. (1999) <em>Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence</em>. Cambridge, MA: MIT Press.</li>
+        </ul>
+      </div>
+    </div>
+  </details>
+</div>
+
+      
+<div class="card prose">
   <h3>Activity 6: Individual Development Project (Post–Team Project)</h3>
   <p class="muted">
     Focus: translating the Unit 6 team design into an individual, practical implementation and communicating design
