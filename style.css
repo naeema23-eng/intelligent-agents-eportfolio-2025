@@ -286,3 +286,16 @@ blockquote{
   gap:8px;
 }
 
+/* =========================
+   Activities page additions
+   (details/summary + kv + code blocks)
+   ========================= */
+
+/* <details>/<summary> layout */
+details{
+  margin-top:12px;
+  border:1px solid var(--border);
+  border-radius:14px;
+  background:#fcfdff;
+
+
