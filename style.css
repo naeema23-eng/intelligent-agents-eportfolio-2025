@@ -286,16 +286,79 @@ blockquote{
   gap:8px;
 }
 
-/* =========================
-   Activities page additions
-   (details/summary + kv + code blocks)
-   ========================= */
+/* =========================================================
+   ADDITIONS (to support Activities page layout properly)
+   ========================================================= */
 
-/* <details>/<summary> layout */
+/* details/summary styling */
 details{
+  margin-top:10px;
+  border-top:1px solid var(--border);
+  padding-top:10px;
+}
+summary{
+  cursor:pointer;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  font-weight:800;
+  color:var(--accent-2);
+  padding:6px 2px;
+}
+summary::-webkit-details-marker{display:none}
+.summary-right{
+  font-weight:600;
+  font-size:12.5px;
+  color:var(--muted);
+}
+.detail-body{
+  margin-top:10px;
+}
+
+/* key-value grid used as “Evidence / Outcome” */
+.kv{
   margin-top:12px;
+  display:grid;
+  grid-template-columns:140px 1fr;
+  gap:8px 14px;
+  padding:12px 12px;
   border:1px solid var(--border);
   border-radius:14px;
-  background:#fcfdff;
+  background:#ffffff;
+}
+.kv > div:nth-child(odd){
+  font-weight:800;
+  color:#0f172a;
+}
+.kv > div:nth-child(even){
+  color:#374151;
+}
 
+/* code blocks */
+pre{
+  margin:10px 0;
+  padding:12px 12px;
+  overflow:auto;
+  background:#0b1220;
+  color:#e5e7eb;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.08);
+}
+pre code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-size:12.5px;
+  line-height:1.6;
+}
+
+/* footer back-to-top link */
+.toplink{
+  color:var(--accent-2);
+  text-decoration:none;
+  font-weight:700;
+}
+.toplink:hover{
+  text-decoration:underline;
+}
 
