@@ -36,243 +36,132 @@
     <section class="hero">
       <h2>Activities</h2>
       <p>
-        This page presents key learning activities and practical artefacts completed during the Intelligent Agents module,
-        including exercises, system design work, and implementation-related evidence. Each activity summarises the aim, what I did,
-        the artefacts produced, and the learning outcome, with evidence noted where applicable.
+        This page presents the key learning activities and practical artefacts completed during the Intelligent Agents
+        module. Each activity summarises the task focus, what was done, the evidence produced, and the learning outcome,
+        with clear alignment to the module’s formative and summative requirements.
       </p>
       <div class="meta">
-        <span class="badge">Exercises + artefacts</span>
-        <span class="badge">Design + evidence</span>
-        <span class="badge">Method + outcome</span>
+        <span class="badge">Formative activities</span>
+        <span class="badge">Practical evidence</span>
+        <span class="badge">Learning outcomes</span>
       </div>
     </section>
 
     <section class="grid">
 
-      <!-- Activity 1 -->
       <div class="card prose">
         <h3>Activity 1: Agent Concepts and Architectures</h3>
         <p class="muted">
-          Focus: what an intelligent agent is, how it perceives the environment, and how different architectures
-          (reactive, deliberative, hybrid, and BDI) impact behaviour.
+          Focus: understanding intelligent agents and comparing reactive, deliberative, hybrid, and BDI architectures.
         </p>
 
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Evidence + learning</span>
-          </summary>
+        <ul>
+          <li>Reviewed definitions of agents and environments.</li>
+          <li>Compared architectural models and mapped them to real-world contexts.</li>
+          <li>Linked architecture choice to autonomy, resilience, and decision-making.</li>
+        </ul>
 
-          <div class="detail-body">
-            <ul>
-              <li>Reviewed core definitions of intelligent agents and agent environments (fully/partially observable, deterministic/stochastic, episodic/sequential).</li>
-              <li>Compared reactive, deliberative, hybrid, and BDI architectures and mapped each to suitable real-world contexts.</li>
-              <li>Linked architectures to organisational settings where autonomy, resilience, and distributed decision-making are important.</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Structured comparison notes + architecture-to-context mapping (included in my reflections and discussions).</div>
-              <div>Outcome</div>
-              <div>Clear understanding of when to use each architecture and how agent design choices affect reliability, explainability, and performance.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Russell, S. and Norvig, P. (2021) <em>Artificial Intelligence: A Modern Approach</em>. 4th edn. Harlow: Pearson.</li>
-                <li>Wooldridge, M. (2021) <em>An Introduction to MultiAgent Systems</em>. 2nd edn. Chichester: John Wiley &amp; Sons.</li>
-                <li>Rao, A.S. and Georgeff, M.P. (1995) ‘BDI agents: From theory to practice’, in <em>ICMAS 1995</em>, pp. 312–319.</li>
-              </ul>
-            </div>
+        <div class="kv">
+          <div>Outcome</div>
+          <div>
+            Clear understanding of how architectural choices influence agent behaviour and system reliability.
           </div>
-        </details>
+        </div>
       </div>
 
-      <!-- Activity 2 -->
       <div class="card prose">
         <h3>Activity 2: Multi-Agent Coordination and Emergent Behaviour</h3>
         <p class="muted">
-          Focus: how agents coordinate, why decentralised systems generate emergent outcomes, and why governance matters
-          for safety and accountability.
+          Focus: coordination, emergence, and governance in decentralised agent systems.
         </p>
 
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Evidence + learning</span>
-          </summary>
+        <ul>
+          <li>Explored coordination via communication, negotiation, and shared goals.</li>
+          <li>Analysed emergent behaviour and unintended outcomes.</li>
+          <li>Linked coordination risks to governance and oversight mechanisms.</li>
+        </ul>
 
-          <div class="detail-body">
-            <ul>
-              <li>Explored how coordination can be achieved through communication, negotiation, shared goals, and protocols.</li>
-              <li>Studied emergent behaviour and why local decision-making may produce unexpected global patterns.</li>
-              <li>Connected these risks to governance needs in real organisations (monitoring, constraints, escalation, and auditability).</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Discussion 1 (case examples + governance risk analysis) and structured summary post.</div>
-              <div>Outcome</div>
-              <div>Improved ability to evaluate agent-based systems not only technically but also as socio-technical systems needing oversight.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Macal, C.M. and North, M.J. (2010) ‘Tutorial on agent-based modelling and simulation’, <em>Journal of Simulation</em>, 4(3), pp. 151–162.</li>
-                <li>Dignum, V. (2019) <em>Responsible Artificial Intelligence</em>. Cham: Springer.</li>
-                <li>Rahwan, I. (2018) ‘Society-in-the-loop: Programming the algorithmic social contract’, <em>Ethics and Information Technology</em>, 20(1), pp. 5–14.</li>
-              </ul>
-            </div>
+        <div class="kv">
+          <div>Evidence</div>
+          <div>Discussion 1 posts and summary.</div>
+          <div>Outcome</div>
+          <div>
+            Ability to evaluate agent systems as socio-technical systems requiring monitoring and control.
           </div>
-        </details>
+        </div>
       </div>
 
-      <!-- Activity 3 -->
       <div class="card prose">
         <h3>Activity 3: Agent Communication and ACLs (KQML / FIPA-ACL)</h3>
         <p class="muted">
-          Focus: why agent communication differs from method invocation, how performatives represent intent,
-          and what risks arise from semantics and ontology mismatch.
+          Focus: knowledge-level communication using agent communication languages.
         </p>
 
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Evidence + learning</span>
-          </summary>
+        <ul>
+          <li>Analysed KQML performatives and intent separation.</li>
+          <li>Compared ACLs with method invocation.</li>
+          <li>Considered ontology alignment and semantic ambiguity.</li>
+        </ul>
 
-          <div class="detail-body">
-            <ul>
-              <li>Analysed KQML concepts and the purpose of performatives (ask, tell, achieve) for goal-driven coordination.</li>
-              <li>Compared ACLs with Java/Python method invocation (coupling, predictability, overhead, and scalability).</li>
-              <li>Identified the role of shared ontologies and protocols in reducing ambiguity in open multi-agent environments.</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Discussion 2 initial post, peer responses, and summary post with references.</div>
-              <div>Outcome</div>
-              <div>Clear understanding of when ACLs are essential (open systems) and when method calls are better (closed, tightly controlled systems).</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Finin, T., Fritzson, R., McKay, D. and McEntire, R. (1994) ‘KQML as an agent communication language’, in <em>CIKM</em>. New York: ACM, pp. 456–463.</li>
-                <li>Gruber, T. (1993) ‘A translation approach to portable ontology specifications’, <em>Knowledge Acquisition</em>, 5(2), pp. 199–220.</li>
-                <li>Weiss, G. (1999) <em>Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence</em>. Cambridge, MA: MIT Press.</li>
-              </ul>
-            </div>
+        <div class="kv">
+          <div>Evidence</div>
+          <div>Discussion 2 initial post, peer responses, and summary.</div>
+          <div>Outcome</div>
+          <div>
+            Strong understanding of when ACLs are appropriate and their design trade-offs.
           </div>
-        </details>
+        </div>
       </div>
 
-      <!-- Activity 4 -->
       <div class="card prose">
-        <h3>Activity 4: Ethics and Risk in Generative / Autonomous Systems</h3>
+        <h3>Activity 4: Ethics and Risk in Generative and Autonomous Systems</h3>
         <p class="muted">
-          Focus: ethical risks (bias, misinformation, IP, accountability) and how governance + safeguards reduce harm
-          when deploying AI agents in real settings.
+          Focus: ethical, social, and governance risks in intelligent systems.
         </p>
 
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Evidence + learning</span>
-          </summary>
+        <ul>
+          <li>Evaluated bias, misinformation, IP, and accountability risks.</li>
+          <li>Linked ethics to system design and deployment.</li>
+          <li>Applied responsible AI frameworks.</li>
+        </ul>
 
-          <div class="detail-body">
-            <ul>
-              <li>Reviewed ethical issues in deep learning–enabled generative technologies and mapped risks to real-world consequences.</li>
-              <li>Examined prevention strategies: auditing, transparency, provenance, human oversight, and responsible deployment policies.</li>
-              <li>Connected ethical evaluation to professional responsibility and decision-making in organisational environments.</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Discussion 3 initial post, peer responses, and summary post (Units 9–11 coverage).</div>
-              <div>Outcome</div>
-              <div>Ability to assess an AI/agent system beyond performance: fairness, safety, compliance, accountability.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Floridi, L. et al. (2018) ‘AI4People—An ethical framework for a good AI society’, <em>Minds and Machines</em>, 28(4), pp. 689–707.</li>
-                <li>Chesney, R. and Citron, D. (2019) ‘Deepfakes: A looming challenge…’, <em>California Law Review</em>, 107(6), pp. 1753–1820.</li>
-                <li>Jobin, A., Ienca, M. and Vayena, E. (2019) ‘The global landscape of AI ethics guidelines’, <em>Nature Machine Intelligence</em>, 1(9), pp. 389–399.</li>
-              </ul>
-            </div>
+        <div class="kv">
+          <div>Evidence</div>
+          <div>Discussion 3 posts and summary.</div>
+          <div>Outcome</div>
+          <div>
+            Ability to assess intelligent systems beyond performance metrics.
           </div>
-        </details>
+        </div>
       </div>
 
-      <!-- Activity 5 -->
       <div class="card prose">
-        <h3>Activity 5: Applying Intelligent Agents to My Professional Context</h3>
+        <h3>Activity 5: Applying Intelligent Agents to Professional Contexts</h3>
         <p class="muted">
-          Focus: translating module concepts into a realistic organisational context (healthcare / operations),
-          identifying what an agent system could do, and what constraints would be required.
+          Focus: applying agent concepts to realistic organisational environments.
         </p>
 
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Evidence + learning</span>
-          </summary>
+        <ul>
+          <li>Identified realistic agent-supported tasks.</li>
+          <li>Defined constraints for safe deployment.</li>
+          <li>Reflected on accountability and escalation.</li>
+        </ul>
 
-          <div class="detail-body">
-            <ul>
-              <li>Outlined realistic tasks an agent system could support (monitoring, coordination, prioritisation, escalation).</li>
-              <li>Identified boundaries required for safe deployment: data governance, audit logs, human oversight, operational constraints.</li>
-              <li>Reflected on how intelligent agents support decision-making under uncertainty without removing accountability.</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Reflection notes and integration across discussion summaries (governance + ethics + architecture).</div>
-              <div>Outcome</div>
-              <div>Improved ability to argue for (or against) agent deployment based on context, including risks and safeguards.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Wooldridge, M. (2021) <em>An Introduction to MultiAgent Systems</em>. 2nd edn. Chichester: John Wiley &amp; Sons.</li>
-                <li>Dignum, V. (2019) <em>Responsible Artificial Intelligence</em>. Cham: Springer.</li>
-              </ul>
-            </div>
+        <div class="kv">
+          <div>Outcome</div>
+          <div>
+            Improved ability to argue for agent deployment based on context and risk.
           </div>
-        </details>
+        </div>
       </div>
 
-      <!-- Activity 6 (CLEANED) -->
       <div class="card prose">
         <h3>Activity 6: Creating Agent Dialogues (KQML + KIF)</h3>
         <p class="muted">
-          Focus: constructing a structured agent dialogue using KQML performatives and KIF-style content to support autonomous
-          communication between agents in a distributed system.
+          Focus: constructing a structured agent dialogue using KQML and KIF.
         </p>
 
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Dialogue + learning</span>
-          </summary>
-
-          <div class="detail-body">
-            <h4>Approach</h4>
-            <ul>
-              <li>Designed a KQML dialogue between two agents: <strong>Alice</strong> (procurement agent) and <strong>Bob</strong> (warehouse stock agent).</li>
-              <li>Used KQML performatives (<code>ask-one</code>, <code>tell</code>) to separate intent from implementation.</li>
-              <li>Represented message content using KIF-style logical expressions and variables (e.g., <code>?qty</code>, <code>?ports</code>).</li>
-              <li>Specified a shared ontology (<code>Warehouse-Stock</code>) to reduce semantic ambiguity.</li>
-            </ul>
-
-            <h4>Agent Dialogue (KQML + KIF)</h4>
-            <pre><code>(ask-one
+        <pre><code>(ask-one
   :sender Alice
   :receiver Bob
   :language KIF
@@ -300,179 +189,89 @@
   :ontology Warehouse-Stock
   :content (= ?ports 3))</code></pre>
 
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Completed KQML/KIF dialogue demonstrating knowledge-level communication and ontology-driven interoperability.</div>
-              <div>Outcome</div>
-              <div>Practical understanding of how ACLs enable autonomous interaction beyond simple method invocation, while introducing semantic design requirements.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Finin, T. et al. (1994) ‘KQML as an agent communication language’, in <em>CIKM</em>. New York: ACM.</li>
-                <li>Gruber, T. (1993) ‘A translation approach to portable ontology specifications’, <em>Knowledge Acquisition</em>, 5(2), pp. 199–220.</li>
-                <li>Weiss, G. (1999) <em>Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence</em>. Cambridge, MA: MIT Press.</li>
-              </ul>
-            </div>
+        <div class="kv">
+          <div>Outcome</div>
+          <div>
+            Practical understanding of autonomous, ontology-based agent communication.
           </div>
-        </details>
+        </div>
       </div>
 
-      <!-- Activity 7 -->
       <div class="card prose">
         <h3>Activity 7: Individual Development Project (Post–Team Project)</h3>
         <p class="muted">
-          Focus: translating the Unit 6 team design into an individual, practical implementation and communicating design decisions
-          through a structured technical presentation.
-        </p>
-
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Evidence + learning</span>
-          </summary>
-
-          <div class="detail-body">
-            <ul>
-              <li>Implemented a simplified multi-agent pipeline based on the Unit 6 digital forensics design, focusing on modular agent roles.</li>
-              <li>Applied agent concepts such as task decomposition, controlled interaction, and auditability.</li>
-              <li>Produced a narrated individual presentation explaining the system design, trade-offs, and future extensions.</li>
-              <li>Critically evaluated why transparency and determinism were prioritised over complex inter-agent communication in this context.</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Individual project presentation and transcript, implementation documentation, and supporting artefacts (linked in the repository/site).</div>
-              <div>Outcome</div>
-              <div>Improved ability to move from conceptual agent design to defensible implementation and justify architecture against domain constraints.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Wooldridge, M. (2021) <em>An Introduction to MultiAgent Systems</em>. 2nd edn. Chichester: John Wiley &amp; Sons.</li>
-                <li>Dignum, V. (2019) <em>Responsible Artificial Intelligence</em>. Cham: Springer.</li>
-              </ul>
-            </div>
-          </div>
-        </details>
-      </div>
-
-      <!-- Activity 8 (NEW) -->
-      <div class="card prose">
-        <h3>Activity 8: Deep Learning in Action (Unit 10)</h3>
-        <p class="muted">
-          Focus: researching a deep learning application likely to impact society and evaluating it through ethics, privacy, and wider socio-technical risks.
-        </p>
-
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Overview + impacts</span>
-          </summary>
-
-          <div class="detail-body">
-            <h4>Chosen application</h4>
-            <p><strong>[Insert your chosen application title here]</strong></p>
-
-            <h4>Overview (what it does)</h4>
-            <p>
-              [Insert 4–6 lines from your forum post.]
-            </p>
-
-            <h4>How it works (brief synopsis)</h4>
-            <p>
-              [Insert 6–8 lines: data → model type (CNN/Transformer) → training objective → deployment.]
-            </p>
-
-            <h4>Potential socio-technical impacts</h4>
-            <ul>
-              <li><strong>Ethics & fairness:</strong> [insert]</li>
-              <li><strong>Privacy & security:</strong> [insert]</li>
-              <li><strong>Social good vs harm:</strong> [insert]</li>
-              <li><strong>Governance & accountability:</strong> [insert]</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Deep Learning in Action forum post (Unit 10) with Harvard references (included in the Discussions section).</div>
-              <div>Outcome</div>
-              <div>Stronger ability to evaluate deep learning systems as socio-technical systems, not only by performance but by risk and governance readiness.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>[Add the references you used in your post (2–4 Harvard entries).]</li>
-              </ul>
-            </div>
-          </div>
-        </details>
-      </div>
-
-      <!-- Activity 9 (NEW) -->
-      <div class="card prose">
-        <h3>Activity 9: Creating Parse Trees (Unit 8)</h3>
-        <p class="muted">
-          Focus: representing language structure using parse trees and linking syntax to meaning for downstream NLP tasks.
-        </p>
-
-        <details open>
-          <summary>
-            <span>What I did</span>
-            <span class="summary-right">Artefact + learning</span>
-          </summary>
-
-          <div class="detail-body">
-            <p>
-              I completed the “Creating Parse Trees” activity by constructing parse trees for the given sentence(s), identifying
-              grammatical structure (e.g., NP/VP/PP), and explaining how tree structure supports interpretation in NLP pipelines.
-            </p>
-
-            <h4>Artefact</h4>
-            <ul>
-              <li><strong>Sentence(s):</strong> [Insert]</li>
-              <li><strong>Parse tree(s):</strong> [Insert screenshot(s) here or link]</li>
-              <li><strong>Short interpretation:</strong> [2–4 lines]</li>
-            </ul>
-
-            <div class="kv">
-              <div>Evidence</div>
-              <div>Screenshot(s) of completed parse trees and a short explanation (Unit 8).</div>
-              <div>Outcome</div>
-              <div>Improved understanding of syntactic structure and its role in NLP analysis and intelligent systems that interpret language.</div>
-            </div>
-
-            <div class="refs">
-              <h4>References</h4>
-              <ul>
-                <li>Russell, S. and Norvig, P. (2021) <em>Artificial Intelligence: A Modern Approach</em>. 4th edn. Harlow: Pearson.</li>
-              </ul>
-            </div>
-          </div>
-        </details>
-      </div>
-
-      <!-- Seminars (tighter) -->
-      <div class="card prose">
-        <h3>Supporting Seminars and Conceptual Development</h3>
-        <p class="muted">
-          Focus: using seminars to clarify theory, strengthen applied understanding, and support collaborative and ethical decision-making.
+          Focus: individual implementation derived from the Unit 6 team design.
         </p>
 
         <ul>
-          <li><strong>Unit 1:</strong> assessment briefing, teamwork expectations, contract and peer evaluation alignment.</li>
-          <li><strong>Unit 2 &amp; 4:</strong> first-order logic foundations and hybrid architectures (connecting theory to design choices).</li>
-          <li><strong>Unit 6:</strong> practical KQML dialogue examples supporting ACL understanding.</li>
-          <li><strong>Unit 8 &amp; 10:</strong> NLP concepts and deep learning impacts (technical + socio-technical risks).</li>
-          <li><strong>Unit 12:</strong> future directions for intelligent agents and responsible deployment.</li>
+          <li>Implemented a simplified multi-agent pipeline.</li>
+          <li>Explained design trade-offs in a narrated presentation.</li>
+          <li>Justified architectural decisions against domain constraints.</li>
         </ul>
 
         <div class="kv">
           <div>Outcome</div>
           <div>
-            Improved ability to connect theory with practice, and to evaluate intelligent systems using both technical and socio-technical criteria.
+            Ability to move from conceptual design to defensible implementation.
+          </div>
+        </div>
+      </div>
+
+      <div class="card prose">
+        <h3>Activity 8: Deep Learning in Action (Unit 10)</h3>
+        <p class="muted">
+          Focus: evaluating a deep learning application and its societal impact.
+        </p>
+
+        <ul>
+          <li>Researched a real-world deep learning application.</li>
+          <li>Explained how the technology works at a high level.</li>
+          <li>Evaluated ethical, privacy, and social implications.</li>
+        </ul>
+
+        <div class="kv">
+          <div>Evidence</div>
+          <div>Deep Learning in Action discussion post.</div>
+          <div>Outcome</div>
+          <div>
+            Stronger ability to evaluate deep learning as a socio-technical system.
+          </div>
+        </div>
+      </div>
+
+      <div class="card prose">
+        <h3>Activity 9: Creating Parse Trees (Unit 8)</h3>
+        <p class="muted">
+          Focus: syntactic structure and its role in NLP.
+        </p>
+
+        <ul>
+          <li>Constructed parse trees for given sentences.</li>
+          <li>Identified grammatical structure and relationships.</li>
+          <li>Linked syntax to semantic interpretation.</li>
+        </ul>
+
+        <div class="kv">
+          <div>Outcome</div>
+          <div>
+            Improved understanding of language structure in intelligent systems.
+          </div>
+        </div>
+      </div>
+
+      <div class="card prose">
+        <h3>Supporting Seminars and Conceptual Development</h3>
+        <ul>
+          <li>Assessment briefing and teamwork guidance.</li>
+          <li>Logic, architectures, and agent communication seminars.</li>
+          <li>NLP and deep learning impact discussions.</li>
+          <li>Future directions for intelligent agents.</li>
+        </ul>
+
+        <div class="kv">
+          <div>Outcome</div>
+          <div>
+            Strong integration of theory, practice, and ethical reasoning.
           </div>
         </div>
       </div>
@@ -487,3 +286,4 @@
   </main>
 </body>
 </html>
+
